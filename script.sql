@@ -29,7 +29,7 @@ CREATE TABLE Palestra (
     id_palestra INT AUTO_INCREMENT PRIMARY KEY,
     titulo VARCHAR(200) NOT NULL,
     descricao VARCHAR(300),
-    horario_inicio DATETIME NOT NULL,
+    horario_inicio VARCHAR(20) NOT NULL,
     duracao_minutos INT NOT NULL,
 
     id_palestrante INT,
