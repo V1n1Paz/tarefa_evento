@@ -7,7 +7,7 @@
     <title>Palestrante :: Cadastrar</title>
 
     <?php
-    include "referencias.php"
+    include "../../referencias.php";
         ?>
 </head>
 
@@ -23,10 +23,6 @@
     $bio = $_POST["txtBio"];
 
 
-    // $descricao = $_POST["txtDescricao"];
-    // $data_entrega = $_POST["txtData"];
-    // $prioridade = $_POST["txtPrioridade"];
-    // $responsavel = $_POST["txtResponsavel"];
 
     // Prepara a instrução SQL
     // Os '?' são parametros para os dados

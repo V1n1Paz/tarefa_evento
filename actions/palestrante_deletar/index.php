@@ -7,7 +7,7 @@
     <title>Palestrante :: Deletar</title>
 
     <?php
-    include "referencias.php"
+    include "../../referencias.php";
         ?>
 </head>
 

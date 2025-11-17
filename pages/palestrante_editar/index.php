@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palestrante :: Editar</title>
     <?php
-    include "referencias.php";
+    include "../../referencias.php";
     ?>
 </head>
 
@@ -80,57 +80,47 @@
                     <div class="form-group">
                         <label>Formação</label>
                         <input type="text" class="form-control" required="" name="txtFormacao"
-                            value="<?php echo $formacao?>">
+                            value="<?php echo $formacao ?>">
                     </div>
-
-                    <!-- <div class="form-group">
-                        <label>Prioridade</label>
-                        <select name="txtPrioridade" class="form-control">
-                            <option <?php if ($prioridade == 'Alta')
-                                echo 'selected'; ?> value="Alta">Alta</option>
-                            <option <?php if ($prioridade == 'Média')
-                                echo 'selected'; ?> value="Média">Média</option>
-                            <option <?php if ($prioridade == 'Baixa')
-                                echo 'selected'; ?> value="Baixa">Baixa</option>
-                        </select>
-                    </div> -->
 
 
                     <div class="form-group">
                         <label>Empresa</label>
-                        <input type="text" class="form-control" placeholder="Empresa do palestrante"
-                            name="txtEmpresa" value="<?php echo $empresa ?>">
+                        <input type="text" class="form-control" placeholder="Empresa do palestrante" name="txtEmpresa"
+                            value="<?php echo $empresa ?>">
                     </div>
 
                     <div class="form-group">
                         <label>Email</label>
-                        <input type="email" class="form-control" placeholder="Email do palestrante"
-                            name="txtEmail" value="<?php echo $email ?>">
+                        <input type="email" class="form-control" placeholder="Email do palestrante" name="txtEmail"
+                            value="<?php echo $email ?>">
                     </div>
 
                     <div class="form-group">
                         <label>Bio</label>
-                        <input type="text" class="form-control" placeholder="Biografia do palestrante"
-                            name="txtBio" value="<?php echo $bio ?>">
+                        <input type="text" class="form-control" placeholder="Biografia do palestrante" name="txtBio"
+                            value="<?php echo $bio ?>">
                     </div>
 
 
                     <br>
                     <div class="form-group">
 
-                        <button type="submit" class="btn btn-primary" name="btEditar" formaction="palestrante_atualizar.php">
+                        <button type="submit" class="btn btn-primary" name="btEditar"
+                            formaction="../../actions/palestrante_atualizar/index.php">
                             Editar
                         </button>
 
-                        <button type="submit" class="btn btn-warning" name="btExcluir" formaction="palestrante_deletar.php">
+                        <button type="submit" class="btn btn-warning" name="btExcluir"
+                            formaction="../../actions/palestrante_deletar/index.php">
                             Excluir
                         </button>
 
 
-                        <a href="index.php">
-                            <button type="button" class="btn btn-danger" name="btVoltar">
-                                Voltar
-                            </button>
+                        <a href="../../index.php">
+
+                            Voltar
+
                         </a>
 
                     </div>

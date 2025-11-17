@@ -16,13 +16,23 @@
 
 
           <div class="item bg-gradient">
-            <a href="palestrante_cadastrar.php">Cadastrar palestrante</a>
+            <a href="pages/palestrante_cadastrar">Cadastrar palestrante</a>
           </div>
           <div class="item bg-gradient">
-            <a href="palestrante_listar.php">Listar palestrantes</a>
+            <a href="pages/palestrante_listar">Listar palestrantes</a>
           </div>
           <div class="item bg-gradient">
-            <a href="palestrante_pesquisar.php">Editar ou remover palestrante</a>
+            <a href="pages/palestrante_pesquisar">Editar ou remover palestrante</a>
+          </div> 
+          <br/>
+          <div class="item bg-gradient">
+            <a href="pages/area_cadastrar">Cadastrar area temática</a>
+          </div>
+          <div class="item bg-gradient">
+            <a href="pages/area_listar">Listar áreas temáticas</a>
+          </div>
+          <div class="item bg-gradient">
+            <a href="pages/area_pesquisar">Editar ou remover áreas temáticas</a>
           </div>
           <!-- <div class="item bg-gradient">
             <a href="palestrante_pesquisar.php">Remover palestrante</a>

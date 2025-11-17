@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palestrante :: Cadastrar</title>
     <?php
-    include "referencias.php";
+    include "../../referencias.php";
     ?>
 </head>
 
 <body>
-    <form method="post" action="palestrante_inserir.php">
+    <form method="post" action="../../actions/palestrante_inserir/">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -42,28 +42,13 @@
                     <input type="text" class="form-control" required=""placeholder="Engenheiro de Software no Google especializado em soluções escaláveis e desenvolvimento de sistemas de alta performance para milhões de usuários."  name="txtBio">
                 </div>
                 
-                <!-- <div class="form-group">
-                    <label>Prioridade</label>
-                    <select name="txtPrioridade" class="form-control">
-                        <option value="Alta">Alta</option>
-                        <option value="Média">Média</option>
-                        <option value="Baixa">Baixa</option>
-                    </select>
-                </div> -->
-
-
-                <!-- <div class="form-group">
-                    <label>Responsável</label>
-                    <input type="text" class="form-control" placeholder="Responsável pela palestrante" name="txtResponsavel">
-                </div> -->
-
-
+     
                 <br>
                 <div class="form-group">
 
                     <button class="btn btn-primary" type="submit">Marcar</button>
 
-                    <a href="index.php">
+                    <a href="../../index.php">
                         <button type="button" class="btn btn-danger" name="btVoltar">
                             Voltar
                         </button>

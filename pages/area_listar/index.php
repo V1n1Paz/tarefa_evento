@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Palestrantes :: Listar</title>
+    <title>Áreas temáticas :: Listar</title>
 
     <?php
-    include "referencias.php";
+    include "../../referencias.php";
 
     ?>
 
@@ -21,7 +21,7 @@
 
 
                     <br>
-                    <h2>Palestrantes :: Listar</h2>
+                    <h2>Áreas temáticas :: Listar</h2>
 
                     <br>
 
@@ -32,15 +32,11 @@
                             <tr>
                                 <th>ID .</th>
                                 <th>Nome .</th>
-                                <th>Formação </th>
-                                <th>Empresa </th>
-                                <th>Email </th>
-                                <!-- <th>Bio</th> -->
                             </tr>
 
                             <?php
                             // Prepara a instrução SQL com um placeholder '?'
-                            $sql = "SELECT * FROM palestrante ORDER BY nome";
+                            $sql = "SELECT * FROM area_tematica ORDER BY nome_area";
 
                             // Prepara o statement
                             $comando = $conexao->prepare($sql);
@@ -53,21 +49,14 @@
 
                             while ($registro = $resultado->fetch_assoc()) {
 
-                                $id = $registro["id_palestrante"];
-                                $nome = $registro["nome"];
-                                $formacao = $registro["formacao"];
-                                $empresa = $registro["empresa"];
-                                $email = $registro["email"];
-                                $bio = $registro["bio_resumida"];
+                                $id = $registro["id_area"];
+                                $nome = $registro["nome_area"];
                                 ?>
 
                                 <tr>
                                     <td><?php echo $id ?></td>
                                     <td><?php echo $nome ?></td>
-                                    <td><?php echo $formacao ?></td>
-                                    <td><?php echo $empresa ?></td>
-                                    <td><?php echo $email ?></td>
-                                    <!-- <td><?php echo $bio ?></td> -->
+
                                 </tr>
 
                             <?php } ?>
@@ -80,7 +69,7 @@
 
                     <div class="form-group">
 
-                        <a href="index.php">
+                        <a href="../../index.php">
                             <button type="button" class="btn btn-danger" name="btVoltar">
                                 Voltar
                             </button>
