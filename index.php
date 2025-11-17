@@ -14,6 +14,8 @@
 <body>
   <main>
 
+  <h1>SISTEMA DE GESTÃO DE EVENTO</h1>
+
 
           <div class="btn-big">
             <a href="pages/palestrante_cadastrar">Cadastrar palestrante</a>
@@ -44,9 +46,20 @@
             <a href="pages/palestra_listar">Listar palestras marcadas</a>
           </div>
           <div class="btn-big">
-            <a href="pages/palestra_pesquisar">Marcar ou desmarcar palestras</a>
+            <a href="pages/palestra_pesquisar">Editar ou desmarcar palestras</a>
           </div>
           <br/>
+
+          <div class="btn-big">
+            <a href="pages/participante_cadastrar">Cadastrar participante</a>
+          </div>
+          <div class="btn-big">
+            <a href="pages/participante_listar">Listar participantes</a>
+          </div>
+          <div class="btn-big">
+            <a href="pages/participante_pesquisar">Atualizar ou excluir participantes</a>
+          </div>
+
 
 
   </main>
