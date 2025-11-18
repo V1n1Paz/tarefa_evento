@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
     <title>Área temática :: Pesquisar</title>
     <?php
     include "../../referencias.php";
@@ -19,8 +20,7 @@
                     <h2>Área temática :: Pesquisar</h2>
                     <div class="form-group">
                         <label>Id</label>
-                        <input type="text" class="form-control" required="" placeholder="Id da área"
-                            name="txtId">
+                        <input type="text" class="form-control" required="" placeholder="Id da área" name="txtId">
                     </div>
 
 
@@ -31,7 +31,9 @@
 
                         <a href="../../index.php">
 
-                            Voltar
+                            <button type="button">
+                                Voltar
+                            </button>
 
                         </a>
 

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
     <title>Participante :: Listar</title>
 
     <?php
@@ -52,14 +53,14 @@
 
                             while ($registro = $resultado->fetch_assoc()) {
 
-                                $id           = $registro["id_participante"];
-                                $nome         = $registro["nome"];
-                                $email        = $registro["email"];
-                                $tipo         = $registro["tipo_ingresso"];
-                                $inscricao    = $registro["data_inscricao"];
-                                $idPalestra   = $registro["id_palestra"];
-                                $cpf          = $registro["cpf_participante"];
-                                $dataReg      = $registro["data_registro"];
+                                $id = $registro["id_participante"];
+                                $nome = $registro["nome"];
+                                $email = $registro["email"];
+                                $tipo = $registro["tipo_ingresso"];
+                                $inscricao = $registro["data_inscricao"];
+                                $idPalestra = $registro["id_palestra"];
+                                $cpf = $registro["cpf_participante"];
+                                $dataReg = $registro["data_registro"];
                                 ?>
 
                                 <tr>
@@ -82,7 +83,9 @@
 
                     <div class="form-group">
                         <a href="../../index.php">
-                            Voltar
+                            <button type="button">
+                                Voltar
+                            </button>
                         </a>
                     </div>
 

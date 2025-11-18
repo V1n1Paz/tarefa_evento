@@ -1,40 +1,97 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background: #f2f2f2;
-  padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+    padding: 20px;
 }
 
-main {
-  max-width: 600px;
-  margin: auto;
-  background: white;
-  padding: 20px;
-  border-radius: 6px;
-  border: 1px solid #ddd;
+/* Container padrão */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
-h1 {
-  text-align: center;
-  font-size: 22px;
-  margin-bottom: 20px;
-  color: #333;
+/* Títulos */
+h1, h2 {
+    margin-bottom: 20px;
+    color: #222;
+    text-align: center;
 }
 
+/* Botões */
+button, .btn-big a, .btn {
+    background: #007bff;
+    color: white;
+    padding: 12px 18px;
+    display: inline-block;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover,
+.btn-big:hover a,
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Botões grandes do index */
 .btn-big {
-  margin: 10px 0;
+    margin: 10px 0;
+    text-align: center;
 }
 
 .btn-big a {
-  display: block;
-  width: 100%;
-  padding: 12px;
-  background: #007bff;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 4px;
+    width: 100%;
+    display: block;
 }
 
-.btn-big a:hover {
-  background: #0056b3;
+/* Inputs */
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+/* Links simples */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+/* Listagens (tabelas) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
 }

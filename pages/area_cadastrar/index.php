@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Área temática :: Cadastrar</title>
+    <link rel="stylesheet" href="../../style.css">
     <?php
     include "../../referencias.php";
-
     ?>
 </head>
 
@@ -28,8 +28,8 @@
 
                         <button class="btn btn-primary" type="submit">Cadastrar</button>
 
-                        <a href="index.php">
-                            <button type="button" class="btn btn-danger" name="btVoltar">
+                        <a href="../../index.php">
+                            <button type="button">
                                 Voltar
                             </button>
                         </a>
