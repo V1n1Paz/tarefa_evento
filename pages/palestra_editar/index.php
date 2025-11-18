@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../style.css">
     <title>Palestra :: Editar</title>
     <?php
     include "../../referencias.php";
@@ -125,8 +125,9 @@
 
 
                         <a href="../../index.php">
-
-                            Voltar
+                            <button type="button">
+                                Voltar
+                            </button>
 
                         </a>
 

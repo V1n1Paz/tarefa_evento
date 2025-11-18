@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <br>
-                <h2>palestrante :: Marcar</h2>
+                <h2>Palestrante :: Cadastrar</h2>
                 <div class="form-group">
                     <label>Nome</label>
                     <input type="text" class="form-control" required="" placeholder="Pedro da Silva" name="txtNome">

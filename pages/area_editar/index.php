@@ -46,7 +46,7 @@
         $registro = $resultado->fetch_assoc();
 
         $nome = $registro["nome_area"];
-      
+
 
     } else {
         echo "Nenhum registro encontrado com o ID fornecido.";
@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h2>Palestrante :: Editar</h2>
+                    <h2>Área temática :: Editar</h2>
                     <div class="form-group">
                         <label>Id</label>
                         <input type="text" class="form-control" required="" placeholder="Id do palestrante" name="txtId"
@@ -92,7 +92,9 @@
 
                         <a href="../../index.php">
 
-                            Voltar
+                            <button type="button">
+                                Voltar
+                            </button>
 
                         </a>
 

@@ -45,13 +45,13 @@
 
         $registro = $resultado->fetch_assoc();
 
-        $nome          = $registro["nome"];
-        $email         = $registro["email"];
-        $tipo          = $registro["tipo_ingresso"];
+        $nome = $registro["nome"];
+        $email = $registro["email"];
+        $tipo = $registro["tipo_ingresso"];
         $dataInscricao = $registro["data_inscricao"];
-        $idPalestra    = $registro["id_palestra"];
-        $cpf           = $registro["cpf_participante"];
-        $dataRegistro  = $registro["data_registro"];
+        $idPalestra = $registro["id_palestra"];
+        $cpf = $registro["cpf_participante"];
+        $dataRegistro = $registro["data_registro"];
 
     } else {
         echo "Nenhum registro encontrado com o ID informado.";
@@ -72,8 +72,8 @@
 
                     <div class="form-group">
                         <label>ID</label>
-                        <input type="text" class="form-control" required placeholder="ID do participante"
-                            name="txtId" value="<?php echo $id ?>">
+                        <input type="text" class="form-control" required placeholder="ID do participante" name="txtId"
+                            value="<?php echo $id ?>">
                     </div>
 
                     <div class="form-group">
@@ -96,8 +96,8 @@
 
                     <div class="form-group">
                         <label>Data de Inscrição</label>
-                        <input type="text" class="form-control" required placeholder="AAAA-MM-DD"
-                            name="txtInscricao" value="<?php echo $dataInscricao ?>">
+                        <input type="text" class="form-control" required placeholder="AAAA-MM-DD" name="txtInscricao"
+                            value="<?php echo $dataInscricao ?>">
                     </div>
 
                     <div class="form-group">
@@ -108,8 +108,8 @@
 
                     <div class="form-group">
                         <label>CPF do Participante</label>
-                        <input type="text" class="form-control" required placeholder="CPF"
-                            name="txtCpf" value="<?php echo $cpf ?>">
+                        <input type="text" class="form-control" required placeholder="CPF" name="txtCpf"
+                            value="<?php echo $cpf ?>">
                     </div>
 
                     <div class="form-group">
@@ -133,7 +133,9 @@
                         </button>
 
                         <a href="../../index.php">
-                            Voltar
+                            <button type="button">
+                                Voltar
+                            </button>
                         </a>
 
                     </div>

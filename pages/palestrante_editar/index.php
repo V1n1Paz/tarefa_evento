@@ -120,8 +120,9 @@
 
                         <a href="../../index.php">
 
-                            Voltar
-
+                          <button type="button">
+                                Voltar
+                            </button>
                         </a>
 
                     </div>
