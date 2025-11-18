@@ -54,7 +54,6 @@ O **Sistema de Gestão de Eventos** é uma aplicação web desenvolvida para adm
 * **PHP**
 * **MySQL**
 * **HTML/CSS (com CSS global)**
-* **Bootstrap (quando necessário)**
 
 ---
 
@@ -75,5 +74,3 @@ Oferecer uma solução prática para gerenciamento de eventos, permitindo contro
 
 ---
 
-Se quiser, posso gerar também:
-📄 *Descrição curta* • 🧪 *Descrição técnica* • 📊 *Modelo de diagrama* • 📁 *Estrutura de pastas para README*
